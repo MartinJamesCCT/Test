@@ -57,9 +57,9 @@
     and check if you were right.
 """
 number = 0
-# number += 15
-number //= 2
-# number *= 6
+number += 15
+# number //= 2
+number *= 6
 # number -= 4
 if number < 10:
      print("Less than 10")
@@ -70,4 +70,5 @@ elif 20 <= number <= 30:
 elif 30 <= number <= 40:
      print("Between 30 and 40")
 else:
-     print("Â¯\_(ãƒ„)_/Â¯")
+     print (number)
+     
