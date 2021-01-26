@@ -58,9 +58,9 @@
 """
 number = 0
 # number += 15
-# number //= 2
+number //= 2
 # number *= 6
-number -= 4
+# number -= 4
 if number < 10:
      print("Less than 10")
 elif 10 <= number <= 20:
