@@ -63,6 +63,8 @@ def dfs(visited, graph, node):
         visited.add(node)
         for neighbour in graph[node]:
             dfs(visited, graph, neighbour)
+            
+            
 dfs(visited, graph1, 'John')
 
 visited = set() 
